@@ -1,6 +1,6 @@
 # Corne V4
 
-Fuente original: https://github.com/foostan/crkbd
+El contenido mostrado está basado en la fuente original: https://github.com/foostan/crkbd
 
 
 
