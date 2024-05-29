@@ -33,9 +33,11 @@ El teclado está integrado con un microcontrolador RP2040 que puede ser flashead
 
 Una vez con el teclado en boot mode, solo debes copiar el archivo .u2f al dispositivo de almacenamiento. 
 
-* [Firmware para VIA](https://github.com/Pulsoteca/Teclados/blob/main/corne_v4/firmware/crkbd_rev4_standard_via.uf2)
+* [Firmware para VIA](https://github.com/Pulsoteca/Teclados/blob/main/reviung53/firmware/reviung_reviung53_via.uf2)
 
 Si quieres compilar el firmware por ti mismo, el source code lo encuentras aquí:
+
+* [Source code](https://github.com/Pulsoteca/Teclados/tree/main/reviung53/firmware/source)
 
 
 
@@ -46,9 +48,10 @@ Si flasheaste el firmware con VIA, puedes configurarlo en [VIA App](https://usev
 1. Ingresa a la pagina [VIA App](https://usevia.app)
 2. Ve a la pestaña de design y da click en Load
 ![image](https://github.com/Pulsoteca/Teclados/assets/167834957/0dc1b311-1bed-4767-b781-f33c2310b2e4)
-3. Carga el archivo .json con el layout: [Link al archivo .json](https://github.com/Pulsoteca/Teclados/blob/main/corne_v4/layouts/crkbd_rev4.json)
+3. Carga el archivo .json con el layout: [Link al archivo .json](https://github.com/Pulsoteca/Teclados/blob/main/reviung53/layouts/reviung53_via.json)
 4. Si todo salió bien, deberías de ver el layout cargado:
-![image](https://github.com/Pulsoteca/Teclados/assets/167834957/a3ca63cd-d5d8-4ece-9ef6-2bf54fed3584)
+![image](https://github.com/Pulsoteca/Teclados/assets/167834957/97f11ea6-186a-43a5-8e5f-9f24d737e12d)
+
 5. Vuelve a la pestaña de configure, click en Authorize Device, selecciona tu teclado y click en Connect
 ![image](https://github.com/Pulsoteca/Teclados/assets/167834957/be7470d5-550c-47de-acf4-80d3a2204134)
 6. Si tu teclado está configurado con encoders, deberás especificarlo en el menu de layout, en el ejemplo de bajo se muestra un encoder del lado derecho superior
