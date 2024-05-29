@@ -1,56 +1,41 @@
-# Corne V4
+# Reviung 53
 
-El contenido mostrado está basado en la fuente original: https://github.com/foostan/crkbd
-
-
+El contenido mostrado está basado en la fuente original: https://github.com/gtips/reviung
 
 ## Cómo ingresar al Boot Mode
 
-```diff
--- DEBES FLASHEAR EL LADO IZQUIERDO Y DERECHO POR SEPARADO
-```
 
-Para actualizar el firmware primero hay que poner el board en boot mode. Para esto hay tres maneras (recomendamos el método 3).
-
+Para actualizar el firmware primero hay que poner el board en boot mode. Para esto hay dos maneras.
 
 #### Boot Mode Método 1:
 
-1. Desconectar el teclado (Desconectar el USB y TRRS)
-2. Mantener Presionado el botón que dice "BOOT" (ver círculo rojo)
-![image](https://github.com/Pulsoteca/Teclados/assets/167834957/4770d8b6-e073-4fb3-981b-d05e4b2280d7)
-
-3. Conectar el USB-C mientras el botón de BOOT está presionado.
+1. Desconectar el cable USB-C del teclado (dejar conectado a la computadora)
+2. Mantener Presionada la tecla 'Q'
+3. Conectar el teclado con el cable USB-C mientras la tecla 'Q' está presionada.
 4. Si todo salió bien, tu computadora debería mostrar el teclado como un dispositivo de almacenamiento.
-![image](https://github.com/Pulsoteca/Teclados/assets/167834957/b2284a02-ac47-45ba-89d1-4181e093f672)
 
+![image](https://github.com/Pulsoteca/Teclados/assets/167834957/3970444e-3531-4c8c-997d-4b16f1d62e61)
 
 
 #### Boot Mode Método 2:
 
-1. Conectar el teclado con el cable USB-C y desconectar el cable TRRS
-2. Mantener Presionado el botón que dice "BOOT" y mientras este está presionado, presionar el botón de RESET (junto al botón de BOOT)
-3. Si todo salió bien, tu computadora debería mostrar el teclado como un dispositivo de almacenamiento.
+1. El teclado debe estar conectado a la computadora con el cable USB-C
+2. Mantener Presionada la tecla 'Q'
+3. Presionar el botón de reset por la parte trasera
+4. Si todo salió bien, tu computadora debería mostrar el teclado como un dispositivo de almacenamiento.
 
-#### Boot Mode Método 3:
-
-1. Desconectar el teclado (Desconectar el USB y TRRS)
-2. Mantener Presionado el botón señalado en el círculo rojo (según la parte izquierda o derecha del teclado) y mientras este está presionado, conectar el cable USB-C
-   ![image](https://github.com/Pulsoteca/Teclados/assets/167834957/f04cd214-d64f-43ee-a607-fa1673878d9c)
-
-3. Si todo salió bien, tu computadora debería mostrar el teclado como un dispositivo de almacenamiento.
+![image](https://github.com/Pulsoteca/Teclados/assets/167834957/4b76ab66-4c19-41c6-9c09-2c898b44182d)
 
 
 ## Como flashear el firmware
-```diff
--- DEBES FLASHEAR EL LADO IZQUIERDO Y DERECHO POR SEPARADO
-```
 
-El Corne V4 viene con un microcontrolador RP2040 que puede ser flasheado con archivos .u2f
+El teclado está integrado con un microcontrolador RP2040 que puede ser flasheado con archivos .u2f
 
-Una vez con el teclado en boot mode, solo debes copiar el archivo .u2f al dispositivo de almacenamiento. De momento hay dos versiones disponibles, una compatible con VIA y otra compatible con VIAL. Si quieres compilar el firmware tu mismo visita el github de foostan para descargar el source code.
+Una vez con el teclado en boot mode, solo debes copiar el archivo .u2f al dispositivo de almacenamiento. 
 
 * [Firmware para VIA](https://github.com/Pulsoteca/Teclados/blob/main/corne_v4/firmware/crkbd_rev4_standard_via.uf2)
-* [Firmware para VIAL](https://github.com/Pulsoteca/Teclados/blob/main/corne_v4/firmware/crkbd_rev4_standard_vial.uf2)
+
+Si quieres compilar el firmware por ti mismo, el source code lo encuentras aquí:
 
 
 
