@@ -53,11 +53,10 @@ Si flasheaste el firmware con VIA, puedes configurarlo en [VIA App](https://usev
 ![image](https://github.com/Pulsoteca/Teclados/assets/167834957/97f11ea6-186a-43a5-8e5f-9f24d737e12d)
 
 5. Vuelve a la pestaña de configure, click en Authorize Device, selecciona tu teclado y click en Connect
-![image](https://github.com/Pulsoteca/Teclados/assets/167834957/be7470d5-550c-47de-acf4-80d3a2204134)
-6. Si tu teclado está configurado con encoders, deberás especificarlo en el menu de layout, en el ejemplo de bajo se muestra un encoder del lado derecho superior
-![image](https://github.com/Pulsoteca/Teclados/assets/167834957/37476b3d-9635-4a53-b1a1-a3cc4c2fee6d)
-7. Estás listo para configurarlo
-![image](https://github.com/Pulsoteca/Teclados/assets/167834957/f311eb30-5525-4977-93d5-67f858407e00)
+![image](https://github.com/Pulsoteca/Teclados/assets/167834957/1b54db4b-bc75-4ef8-b01c-25a7f122a5a5)
+
+6. Estás listo para configurarlo
+![image](https://github.com/Pulsoteca/Teclados/assets/167834957/4d4b753d-06a3-4f14-95d9-7b179732ad63)
 
 
 
