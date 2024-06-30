@@ -1,8 +1,8 @@
-### * Actualización *
+### [Actualización]
 - Se actualizó el firmware crkbd_rev4_standard_via.uf2
 - Actualización a QMK 1.1.5
 - Corrección de compatibilidad con Linux
-- Corrección para despertar la PC cuando está suspendida
+- Corrección para despertar la PC cuando está suspendida para controladores ARM
 
 # Corne V4
 
